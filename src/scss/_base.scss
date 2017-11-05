@@ -1,0 +1,15 @@
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+:active,
+:hover,
+:focus {
+    outline: 0 !important;
+    outline-offset: 0 !important;
+}
+
+a {
+    transition: .2s;
+}
