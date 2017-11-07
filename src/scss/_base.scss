@@ -1,8 +1,3 @@
-img {
-    height: auto;
-    max-width: 100%;
-}
-
 :active,
 :hover,
 :focus {
@@ -11,5 +6,5 @@ img {
 }
 
 a {
-    transition: .2s;
+    transition: all ease 0.3s;
 }
