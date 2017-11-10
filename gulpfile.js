@@ -39,11 +39,18 @@ gulp.task('scss', function() {
 });
 
 // Js
-
 gulp.task('js', () => {
     return gulp.src('src/assets/js/**/*.js')
         .pipe(plumber())
         .pipe(gulp.dest('build/assets/js/'))
+});
+
+// Images
+
+gulp.task('images', () => {
+    gulp.src('src/assets/img/**/*')
+        .pipe(plumber())
+        .pipe(gulp.dest('build/assets/img'));
 });
 
 // Watch
@@ -74,7 +81,7 @@ gulp.task('browser-sync', () => {
 });
 
 // default
-gulp.task('default', ['nunjucks', 'js', 'scss', 'watch', 'browser-sync']);
+gulp.task('default', ['nunjucks', 'js', 'scss', 'images', 'watch', 'browser-sync']);
 
 // super build
 
