@@ -1,3 +1,3 @@
-Simple starter template:
+starter template for your project:
 
-👉 SCSS, BrowserSync, autoprefixer, csscomb, imagemin, nunjucks, plumber, sourcemaps, uncss
+👉 Gulp, SCSS, BrowserSync, autoprefixer, csscomb, imagemin, nunjucks, plumber, sourcemaps, uncss
